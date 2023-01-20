@@ -29,6 +29,9 @@
     - HitPolicySelector should not close the Popover when selecting values on the Selects.
     - Add row/column buttons disappearing when in upper/left positions, after clicked.
     - Resizing columns triggers selection. Sometimes at the right-side, but always at top or bottom.
+      - The same problem happens when editing text inside a cell. See https://issues.redhat.com/browse/KOGITO-7823
+    - Editing long text inside cells should grow the cell to allow more space for editing it. See https://issues.redhat.com/browse/KOGITO-7822
+
 - UI:
     - Fix rowSpan on DecisionTable input and annotaions sections.
     - Truncate expression name on root expressions.
