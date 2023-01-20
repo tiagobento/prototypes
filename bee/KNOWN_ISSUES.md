@@ -10,8 +10,8 @@ Issues that are currently identified on Boxed Expression Editor, and should be f
         localhost/:1 OTS parsing error: invalid sfntVersion: 1702391919
 - Resizing:
   - (Done) Java function type weird behavior when resizing
+  - (Done) DecisionTable/Relation delete columns resizing bug.
   - (WIP) Resizing table columns when the container is already at minWidth.
-  - DecisionTable/Relation delete columns resizing bug.
   - PMML Functions can break resizing when the document/model names are are too long.
 - Input:
   - FEEL Input onBlur not working. Typing a value and clicking outside does not save the typed value.
@@ -25,6 +25,7 @@ Issues that are currently identified on Boxed Expression Editor, and should be f
   - Closing HitPolicySelector without pressing Esc (e.g. clicking outside) breaks keyboard shortcuts like Backspace, Ctrl+C etc.
 - UX:
   - Pasting expressions error handling.
+  - Add resizer handles to all column headers.
   - Arrow-right on upper headers goes beyond the limit. Limit is correct using headerGroups.
   - Navigate, with keyboard, to headers on multiple levels.
   - Dead keys (e.g. ˜ˆ´¨) are not triggering edit mode correctly on table cells.
