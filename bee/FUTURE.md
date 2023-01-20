@@ -14,6 +14,7 @@ Future improvements that can be done to/using the Boxed Expression Editor. Thing
     - Make the entire Boxed Expression be copy-able to a spreadsheet.
 - Resizing
     - Freeze table column widths. Resizing its container should not change their widths. If all columns are pinned, the last one is flexible.
+    - Make it possible to reisze rows as well.
 - Drag & drop
     - Move table rows with drag/drop.
     - Move table columns with drag/drop.
@@ -29,5 +30,7 @@ Future improvements that can be done to/using the Boxed Expression Editor. Thing
     - Select all the cells in the table when double-clicking the controller cell or the expression header.
     - Select entire rows. Context-menu integrated. E.g. Delete rows 1-20.
     - select entire columns. Context-menu integrated. E.g. Delete columns 1-20.
+- Performance
+    - Enable virtualization of table rows to allow for great performance when dealing with huge tables.
 - SceSim
     - Create a new SceSim new editor based on BeeTable.
