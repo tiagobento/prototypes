@@ -8,10 +8,10 @@
       > Failed to decode downloaded font: http://localhost:3015/6f75249988833dd9f4297c9781ad35ff.ttf
         localhost/:1 OTS parsing error: invalid sfntVersion: 1702391919
 - Resizing:
+    - (Done) Java function type weird behavior when resizing
     - (WIP) Resizing table columns when the container is already at minWidth.
-    - (WIP) Java function type weird behavior when resizing
-    - PMML Functions can break resizing when the document/model names are are too long.
     - DecisionTable/Relation delete columns resizing bug.
+    - PMML Functions can break resizing when the document/model names are are too long.
 - Input:
     - FEEL Input onBlur not working. Typing a value and clicking outside does not save the typed value.
     - Context Menu shouldn't be allowed on every cell. Fix it.
