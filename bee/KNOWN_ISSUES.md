@@ -20,6 +20,7 @@
     - Context Menu broken on DT top-level headers. Column index is broken. E.g. Add to the right/left.
     - Additional row context menu broken. Shouldn't have `Delete` nor `Insert below`
     - SELECTION Cut/paste/reset should not be available for header cells on Context Menu.
+    - Logic type selector should never render outside the screen. Same for context menu.
     - Closing HitPolicySelector without pressing Esc (e.g. clicking outside) breaks keyboard shortcuts like Backspace, Ctrl+C etc.
 - UX:
     - Pasting expressions error handling.
