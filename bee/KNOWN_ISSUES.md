@@ -14,6 +14,7 @@ Issues that are currently identified on Boxed Expression Editor, and should be f
   - (WIP) Resizing table columns when the container is already at minWidth.
   - PMML Functions can break resizing when the document/model names are are too long.
 - Input:
+  - Support readonly mode.
   - FEEL Input onBlur not working. Typing a value and clicking outside does not save the typed value.
   - Context Menu shouldn't be allowed on every cell. Fix it.
   - Allow pasting arbitrary data on cells that contain literal expressions.
@@ -36,14 +37,30 @@ Issues that are currently identified on Boxed Expression Editor, and should be f
   - Editing long text inside cells should grow the cell to allow more space for editing it. See https://issues.redhat.com/browse/KOGITO-7822
   - FEEL expressions highlight is wrong. E.g. "anything" -> "in" is blue, rest is black.
   - Decision table input columns should not have a "Name", but an "Expression". The input should be a FeelInput, not a plain text input.
+  - Invocation expression function name should not be a plain text input. It should have autocompletion features.
 - UI:
   - Fix rowSpan on DecisionTable input and annotaions sections.
   - Truncate expression name on root expressions.
   - Fix icons positions on expression header menu.
   - Ctrl+ and Ctrl- zoom problems. Zoom in and out.
+  - Decision table top-level header with long name not playing well with sub-headers.
+    - Create a DecisionTable.
+    - Delete one output column.
+    - Rename the expression to `long long long long long long long long long long long`.
+    - The widths are broken.
 - Enhancements:
   - HitPolicySelector no caps, description for all. Etc.
   - Add icons to FunctionKind selector.
   - Add explanation to FunctionKind selector.
   - Add explanation to all expression types, right at the `Select expression` menu.
   - Add empty state to parameters on Function expressions.
+
+
+On DMN Editor:
+  - CSS differences.
+  - Keyboard shortcuts are not working.
+  - Resizing Literal Expressions is not having an effect after switching back to the old editor.
+  - 
+
+On DMN Runner:
+  - 
